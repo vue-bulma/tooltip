@@ -4,8 +4,8 @@
   "description": "Tooltip Component for Vue Bulma",
   "main": "src/Tooltip.vue",
   "devDependencies": {
-   "bulma": "^0.1.0",
-   "vue": "^1.0.26"
+    "bulma": "^0.1.0",
+    "vue": "^1.0.26"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,7 @@
   "author": "Fangdun Cai <cfddream@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "classnames": "2.2.5"
+    "classnames": "2.2.5",
+    "hint.css": "2.3.1"
   }
 }
