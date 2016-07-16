@@ -10,18 +10,9 @@ export default {
   props: {
     type: String,
     size: String,
-    always: {
-      type: Boolean,
-      default: false
-    },
-    noAnimate: {
-      type: Boolean,
-      default: false
-    },
-    rounded: {
-      type: Boolean,
-      default: false
-    },
+    always: Boolean,
+    noAnimate: Boolean,
+    rounded: Boolean,
     label: {
       type: String,
       default: ''
