@@ -4,8 +4,8 @@
   "description": "Tooltip Component for Vue Bulma",
   "main": "src/Tooltip.vue",
   "peerDependencies": {
-    "bulma": "^0.1.0",
-    "vue": "^1.0.26"
+    "bulma": "^0.1",
+    "vue": ">=2.0.0-beta.0"
   },
   "scripts": {},
   "repository": "git+https://github.com/vue-bulma/tooltip.git",
@@ -21,6 +21,6 @@
   "license": "MIT",
   "dependencies": {
     "classnames": "2.2.5",
-    "hint.css": "2.3.1"
+    "hint.css": "2.3.2"
   }
 }
