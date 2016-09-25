@@ -55,6 +55,12 @@ export default {
     )
 
     return rawChild
+  },
+
+  watch: {
+    label (val) {
+      this.$el.setAttribute('aria-label', val)
+    }
   }
 
 }
