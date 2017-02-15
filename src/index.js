@@ -8,7 +8,11 @@ export default {
 
   props: {
     type: String,
-    size: String,
+    size: {
+      type: String,
+      default: 'medium',
+      validator: value => ['small', 'medium', 'large'].includes(value)
+    },
     always: Boolean,
     noAnimate: Boolean,
     rounded: Boolean,
