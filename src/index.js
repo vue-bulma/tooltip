@@ -42,11 +42,13 @@ export default {
     const rawChild = children[0]
 
 
-    rawChild.data.attrs = {
+    rawChild.data.attrs = rawChild.data.attrs || {}
+    Object.assign(rawChild.data.attrs, {
       'aria-label': this.label
-    }
+    })
 
-    rawChild.data.class = classNames(
+    rawChild.data.class = Array.isArray(rawChild.data.class) ? rawChild.data.class : [rawChild.data.class]
+    rawChild.data.class.push(classNames(
       'tooltip',
       `tooltip--${this.placement}`,
       {
@@ -56,7 +58,7 @@ export default {
         'tooltip--always': this.always,
         'tooltip--no-animate': this.noAnimate
       }
-    )
+    ))
 
     return rawChild
   },
