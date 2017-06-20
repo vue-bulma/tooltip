@@ -1,6 +1,6 @@
 {
   "name": "vue-bulma-tooltip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tooltip Component for Vue Bulma",
   "main": "src/index.js",
   "peerDependencies": {
