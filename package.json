@@ -1,10 +1,10 @@
 {
   "name": "vue-bulma-tooltip",
-  "version": "1.0.4",
+  "version": "2.0.0-alpha.0",
   "description": "Tooltip Component for Vue Bulma",
   "main": "src/index.js",
   "peerDependencies": {
-    "bulma": ">=0.2",
+    "bulma": ">=0.6",
     "vue": ">=2.0"
   },
   "repository": "vue-bulma/tooltip",
@@ -19,7 +19,7 @@
   "author": "Fangdun Cai <cfddream@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "classnames": "2.2.5",
-    "hint.css": "2.4.1"
+    "classnames": "^2.2.6",
+    "hint.css": "^2.5.1"
   }
 }

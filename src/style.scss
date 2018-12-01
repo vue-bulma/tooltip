@@ -1,5 +1,6 @@
+@import '~bulma/sass/utilities/initial-variables';
 @import '~bulma/sass/utilities/functions';
-@import '~bulma/sass/utilities/variables';
+@import '~bulma/sass/utilities/derived-variables';
 
 $hintPrefix: 'tooltip--';
 $hintFontFamily: $family-sans-serif;
@@ -15,17 +16,17 @@ $hintSuccessColor: $success;
 }
 
 .#{$hintPrefix}primary {
-	@include hint-type($primary);
+  @include hint-type($primary);
 }
 
 .#{$hintPrefix}danger {
-	@include hint-type($danger);
+  @include hint-type($danger);
 }
 
 .#{$hintPrefix}rounded:after {
   border-radius: $radius;
 }
 
-[class*="#{$hintPrefix}"]:after {
+[class*='#{$hintPrefix}']:after {
   box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1), 0 0 0 1px rgba(17, 17, 17, 0.1);
 }
